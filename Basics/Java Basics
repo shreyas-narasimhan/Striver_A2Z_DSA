@@ -1,3 +1,29 @@
 What is Java?
+
 What is Collections in Java?
+It is present in java.util package (java.util.Collections). (Advised to import java as whole instead of particular package)
+Collections main reason is that it is interable
+Collections contians List, Queue (Also has PriorityQueue in it), Set 
+
+List : ordered collections that can have duplicate elements. (Matters when the order of insertion or retrieve elements by position)
+Set : unordered collections that do not allow duplicates.
+Queue : collections designed to hold elements before processing.
+
+Alongside these is the Map interface, which isn’t technically a subtype of Collection but is still part of the framework. A Map stores data in key-value pairs, ensuring that each key is unique.
+
+List 
+ArrayList : internally backed by a dynamic array, offering fast random access but slower insertions and deletions in the middle.
+LinkedList : based on a doubly linked list, making insertions and deletions faster but random access slower.
+Vector : similar to ArrayList but synchronized, meaning it’s thread safe (however, it’s considered outdated for most use cases).
+
+Sets
+HashSet uses hashing for storage; elements are unordered and operations are very
+LinkedHashSet : similar to HashSet but maintains the order in which elements are inserted.
+TreeSet : stores elements in a sorted (ascending) order using a balanced binary search tree, but with slower insertion and lookup times compared to hash-based sets.
+
+Maps
+HashMap : fast lookups with no guaranteed order of keys.
+LinkedHashMap : maintains insertion order of keys.
+TreeMap : keeps keys sorted in ascending order.
+
 What is String Buffer, String Builder and what are the differences?
