@@ -1,0 +1,4 @@
+Status till 1/04/2026 started it in 30/03/2026
+Initially I went through the basics of language.
+Then I started working on the pattern problems.
+Completed the problems on patterns.
